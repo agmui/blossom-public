@@ -144,6 +144,9 @@ press q to close the window
 
 ![gesture recogniser](./pics/gesture_recogniser_demo.png)
 
+### Facial recogniser
+
+*used Google[MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) for model*
 
 
 ### Chatbot demo run
@@ -153,6 +156,12 @@ python chatbot_pipeline.py
 then when asked input your mic, for me it was 5:
 
 ![mic_pic](pics/mic_pic.png)
+
+common errors:
+if on windows run and the string is diffract to the one in the .env file
+```batch
+echo %OPENAI_API_KEY%
+```
 
 ## Project files:
 **main.py:**
